@@ -19,7 +19,7 @@ float theta_y = 0; //vertical camera rotation
 //graphics buffer
 char buffer[width][height];
 
-//cube coordinates
+//cube vertices
 std::vector<float> x_values{1, -1, 1, -1, 1, -1, 1, -1};
 std::vector<float> y_values{1, 1, -1, -1, 1, 1, -1, -1};
 std::vector<float> z_values{3, 3, 3, 3, 4, 4, 4, 4};
